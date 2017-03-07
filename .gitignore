@@ -1,47 +1,49 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# ------------------------------------------------------------------------------ #
+# Java defaults (https://github.com/github/gitignore/blob/master/Java.gitignore) #
+# ------------------------------------------------------------------------------ #
+*.class
 
-# Folder config file
-Desktop.ini
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# ------------------------------------------------------------------------------------------- #
+# Eclipse-specific (https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore) #
+# ------------------------------------------------------------------------------------------- #
+*.pydevproject
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+# Recommended for Maven based projects 
+.project
+.classpath
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# External tool builders
+.externalToolBuilders/
 
-# Windows shortcuts
-*.lnk
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# =========================
-# Operating System Files
-# =========================
+# CDT-specific
+.cproject
 
-# OSX
-# =========================
+# PDT-specific
+.buildpath
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# --------------- #
+# Studio-specific #
+# --------------- #
+.studio/
+flows/
+target/
+catalog/
+**/*.mflow

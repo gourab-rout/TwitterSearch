@@ -6,7 +6,7 @@ This is a POC to search tweets using MuleSoft Twitter connector.
 
 ### Step 1: Download the TwitterSearchAPI from github
 
-1. Link to download <a href="https://github.com/indiramallick1988/TwitterSearchAPI"> https://github.com/indiramallick1988/TwitterSearchAPI.
+1. Link to download <a href="https://github.com/indiramallick1988/TwitterSearch"> https://github.com/indiramallick1988/TwitterSearch.
 2. Go to "Clone or Download" -> "Download ZIP" as shown below
  
    ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/twitter/download.PNG)

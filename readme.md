@@ -13,9 +13,10 @@ This is a POC to search tweets using MuleSoft Twitter connector.
    
 ### Step 2: Import Mule Project
 
-1. Open Anypointstudio, navigate to File-> Import -> Anypoint -> Anypoint Studio generated Archive(.zip)
+1. Open Anypointstudio, navigate to File-> Import -> Anypoint Studio-> Anypoint Studio generated Archive(.zip)
 
    ![ScreenShot](https://raw.githubusercontent.com/indiramallick1988/Demo2/master/twitter/Import1.PNG) 
+2. Browse the zip file and click Finish. Ignore warning in case of any
 
 ## Application Config
 
@@ -36,6 +37,8 @@ This is a POC to search tweets using MuleSoft Twitter connector.
 * The current poller frequency is 30s which can be updated by changing `pollFrequency` in the application.properties file.
 * The Json response file is created under src/main/resources/output. Both the filename and output directory are configurable 
   by updating `fileOutputPattern` `fileOutputDirectory`.
-* The output file is not produced if tweets retrieved is empty([])
+* The output file will not be created if no tweets matches the search criteria.
 
 ## Known Issues
+
+* The number of tweets returned per poll is 15.
